@@ -15,7 +15,7 @@ dp = Dispatcher()
 async def cmd_start(message: Message):
     await message.answer(
         f"Привет, {message.from_user.first_name}!\n"
-        "Напиши мне что-нибудь, и я повторю."
+        "Напиши мне что-нибудь, и я это повторю."
     )
 
 
